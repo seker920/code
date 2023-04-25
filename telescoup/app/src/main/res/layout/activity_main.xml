@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="370dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="КОЛИЧЕСТВО МЕСЯЦЕВ ВЫПЛАТЫ ИПОТЕКИ"
+        android:textColor="#008ACA"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/countOut"
+        android:layout_width="370dp"
+        android:layout_height="69dp"
+        android:background="#F1EAE2"
+        android:gravity="center"
+        android:hint="Информация о числе месяцев до покупки"
+        android:textColor="#008ACA"
+        android:textColorHint="#008ACA"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="370dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="212dp"
+        android:gravity="center"
+        android:text="ВЫПИСКА ПО ЕЖЕМЕСЯЧНЫМ ПЛАТЕЖАМ"
+        android:textColor="#008ACA"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/manyMonthOut"
+        android:layout_width="370dp"
+        android:layout_height="69dp"
+        android:background="#F1EAE2"
+        android:gravity="center"
+        android:hint="Информация о ежемесячных платежах"
+        android:textColor="#008ACA"
+        android:textColorHint="#008ACA"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="303dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
